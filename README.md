@@ -10,4 +10,4 @@ Assumptions:
 - Same beverage can be served on all the outlets at one time.
 - Recipe of a beverage doesn't change.
 - Ingredients can be added in any order. (If not so, a better design will be to have Ingredient class and its derived objects or LinkedHashMap).
-- Inventory is initialized with below default values: "hot_water": 500, "hot_milk": 500, "ginger_syrup": 100, "sugar_syrup": 100, "tea_leaves_syrup": 100
+- Inventory is initialized with following default values: "hot_water": 500, "hot_milk": 500, "ginger_syrup": 100, "sugar_syrup": 100, "tea_leaves_syrup": 100
