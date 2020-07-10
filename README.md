@@ -7,7 +7,7 @@ Basic flow: All the requests land on the "RequestProcessor" class. This acts lik
 
 Assumptions:
 
-Same beverage can be served on all the outlets at one time.
-Recipe of a beverage doesn't change.
-Ingredients can be added in any order. (If not so, the design needs to be updated with Ingredient class and its derived objects or LinkedHashMap).
-Inventory is initialized with below default values: "hot_water": 500, "hot_milk": 500, "ginger_syrup": 100, "sugar_syrup": 100, "tea_leaves_syrup": 100
+- Same beverage can be served on all the outlets at one time.
+- Recipe of a beverage doesn't change.
+- Ingredients can be added in any order. (If not so, a better design will be to have Ingredient class and its derived objects or LinkedHashMap).
+- Inventory is initialized with below default values: "hot_water": 500, "hot_milk": 500, "ginger_syrup": 100, "sugar_syrup": 100, "tea_leaves_syrup": 100
